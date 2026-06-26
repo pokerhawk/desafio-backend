@@ -1,6 +1,6 @@
-import { Injectable } from '@nestjs/common';
+import { BadRequestException, HttpStatus, Injectable } from '@nestjs/common';
 import { ClientService } from 'src/client/client.service';
-import { CreatePassangerDto, GetPassengersDto } from './dto/trip.dto';
+import { CreatePassangerDto, GetPassengersDto, GetTripsDto } from './dto/trip.dto';
 import { paginated, skipOption } from 'src/utils/pagination/pagination';
 import { Prisma } from '@prisma/client';
 
@@ -14,6 +14,7 @@ export class TripService {
         const tripExists = await this.prisma.trip.findUnique({
             where: { trip_id: body.trip_id }
         });
+        if(!tripExists)throw new BadRequestException("Trip doesn't exists");
         
         await this.prisma.passenger.create({
             data: {
@@ -25,6 +26,11 @@ export class TripService {
                 tripId: tripExists.id
             }
         })
+
+        return {
+            statusCode: HttpStatus.CREATED,
+            message: "Passageiro Criado"
+        }
     }
 
     async getPassengers(query: GetPassengersDto){
@@ -32,6 +38,7 @@ export class TripService {
 
         if(query.name) whereOptions.name = query.name;
         if(query.document) whereOptions.document = query.document;
+        if(query.documentType) whereOptions.documentType = query.documentType;
         if(query.flight_class) whereOptions.flight_class = query.flight_class;
         if(query.tripId) whereOptions.tripId = query.tripId;
 
@@ -45,6 +52,30 @@ export class TripService {
                 skip: skipOption(query.rows, query.page),
             }),
             this.prisma.passenger.count({
+                where: whereOptions
+            }),               
+        ]);
+
+        return paginated(users, usersCount, query.page, query.rows);
+    }
+
+    async getTrips(query: GetTripsDto){
+        const whereOptions: Prisma.TripWhereInput = {};
+
+        if(query.trip_id) whereOptions.trip_id = query.trip_id;
+        if(query.status) whereOptions.status = query.status;
+        if(query.departure_date) whereOptions.departure_date = query.departure_date;
+
+        const [users, usersCount] = await this.prisma.$transaction([
+            this.prisma.trip.findMany({
+                where: whereOptions,
+                orderBy: {
+                    createdAt: 'desc'
+                },
+                take: query.rows,
+                skip: skipOption(query.rows, query.page),
+            }),
+            this.prisma.trip.count({
                 where: whereOptions
             }),               
         ]);

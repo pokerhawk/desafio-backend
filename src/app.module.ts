@@ -6,7 +6,6 @@ import { AuthModule } from './modules/auth/auth.module';
 import { TripModule } from './modules/trip/trip.module';
 import { UserModule } from './modules/user/user.module';
 import { WebhookModule } from './modules/webhook/webhook.module';
-import { PassengerModule } from './modules/passenger/passenger.module';
 import { MulterModule } from '@nestjs/platform-express';
 import { memoryStorage } from 'multer';
 import { AnalyticsModule } from './modules/analytics/analytics.module';
@@ -19,7 +18,6 @@ import { AnalyticsModule } from './modules/analytics/analytics.module';
     ConfigModule.forRoot(),
     AuthModule,
     TripModule,
-    PassengerModule,
     UserModule,
     WebhookModule,
     AnalyticsModule,

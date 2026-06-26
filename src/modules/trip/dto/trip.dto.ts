@@ -32,12 +32,38 @@ export class GetPassengersDto {
   document?: string;
 
   @IsOptional()
+  @IsEnum(DocumentTypeEnum)
+  documentType?: DocumentTypeEnum;
+
+  @IsOptional()
   @IsEnum(FlightClassEnum)
   flight_class?: FlightClassEnum;
 
   @IsOptional()
   @IsString()
   tripId?: string;
+
+  @Type(() => Number)
+  @IsNumber()
+  rows: number;
+
+  @Type(() => Number)
+  @IsNumber()
+  page: number;
+}
+
+export class GetTripsDto {
+  @IsOptional()
+  @IsString()
+  trip_id?: string;
+
+  @IsOptional()
+  @IsString()
+  status?: string;
+
+  @IsOptional()
+  @IsString()
+  departure_date?: string;
 
   @Type(() => Number)
   @IsNumber()

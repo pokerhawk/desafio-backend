@@ -1,7 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { ClientService } from 'src/client/client.service';
-import { numberToBRL, toPercentString } from 'src/utils/functions';
+import { numberToBRL, removeSpaces, toPercentString } from 'src/utils/functions';
 import * as XLSX from 'xlsx';
+import * as iconv from 'iconv-lite';
 
 @Injectable()
 export class AnalyticsService {
@@ -9,9 +10,11 @@ export class AnalyticsService {
         private readonly prisma: ClientService,
     ){}
 
+
     async importExcel(file: Express.Multer.File) {
         const workbook = XLSX.read(file.buffer, {
-            type: 'buffer',
+            type:'buffer',
+            codepage: 65001
         });
 
         const sheetName = workbook.SheetNames[0];
@@ -125,7 +128,23 @@ export class AnalyticsService {
         //     data,
         //     skipDuplicates: true,
         // });
-        
+
+        // const createTripTest = await this.prisma.trip.create({
+        //     data: {
+        //         status: "on_route",
+        //         destination: `${validRows[0].route_name.split("-")[1]}`,
+        //         flight_number: "42",
+        //         departure_date: new Date(),
+        //         trip_id: validRows[0].trip_id,
+        //         route: validRows[0].route_name,
+        //         passengers: validRows[0].actual_passengers,
+        //         ticket_price: validRows[0].ticket_price,
+        //         delay_minutes: validRows[0].delay_minutes
+        //     }
+        // })
+
+        // console.log(createTripTest)
+
         return {
             totalPassengers,
             total_average_occupancy: toPercentString((totalPassengers*100)/totalCapacity),
