@@ -1,0 +1,24 @@
+services:
+  desafio-database:
+    image: postgres:latest
+    container_name: desafio-database
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: desafio
+      POSTGRES_DB: desafio-db
+    volumes:
+      - postgres:/var/lib/postgres/data
+    ports:
+      - "5432:5432"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - desafio-network
+
+volumes:
+  postgres:
+
+networks:
+  desafio-network:
+    driver: bridge

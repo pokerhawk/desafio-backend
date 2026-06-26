@@ -1,0 +1,1001 @@
+trip_id,route_name,operator_assigned,capacity,actual_passengers,ticket_price,delay_minutes
+TRIP_1001,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1002,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1003,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1004,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1005,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1006,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1007,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1008,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1009,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_1010,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0
+TRIP_1011,São Paulo - Santos,Via Sul,50,50,45.00,8
+TRIP_1012,Recife - Maceió,Nordeste Linhas,46,28,95.00,35
+TRIP_1013,Manaus - Itacoatiara,Rios da Amazônia,60,54,80.00,0
+TRIP_1014,Belém - Castanhal,Rios da Amazônia,50,42,35.00,15
+TRIP_1015,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,37,175.00,0
+TRIP_1016,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,0
+TRIP_1017,Curitiba - Florianópolis,Expresso Sul,44,22,98.00,0
+TRIP_1018,Belo Horizonte - Vitória,Rota Leste,48,48,145.50,60
+TRIP_1019,Salvador - Recife,Nordeste Linhas,46,46,189.90,18
+TRIP_1020,Porto Alegre - Gramado,Via Sul,40,28,75.00,0
+TRIP_1021,São Paulo - Campinas,Via Sul,50,44,42.00,0
+TRIP_1022,Rio de Janeiro - Angra dos Reis,Via Sul,40,38,78.00,12
+TRIP_1023,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,0
+TRIP_1024,Fortaleza - Jericoacoara,Nordeste Linhas,40,35,140.00,40
+TRIP_1025,São Paulo - Curitiba,Expresso Sul,44,42,115.00,0
+TRIP_1026,Florianópolis - Porto Alegre,Via Sul,44,41,135.00,5
+TRIP_1027,Belo Horizonte - São Paulo,Rota Leste,48,39,155.00,0
+TRIP_1028,Natal - João Pessoa,Nordeste Linhas,46,40,65.00,0
+TRIP_1029,Salvador - Aracaju,Nordeste Linhas,46,34,92.00,22
+TRIP_1030,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,38,40.00,0
+TRIP_1031,São Paulo - Rio de Janeiro,Expresso Sul,44,30,129.90,0
+TRIP_1032,Belo Horizonte - Vitória,Rota Leste,48,45,145.50,15
+TRIP_1033,Curitiba - Florianópolis,Expresso Sul,44,43,98.00,0
+TRIP_1034,Brasília - Goiânia,Planalto Cargas e Pax,50,38,65.00,0
+TRIP_1035,Salvador - Recife,Nordeste Linhas,46,44,189.90,55
+TRIP_1036,Porto Alegre - Gramado,Via Sul,40,40,75.00,0
+TRIP_1037,São Paulo - Rio de Janeiro,Expresso Sul,44,35,129.90,10
+TRIP_1038,Rio de Janeiro - Búzios,Via Sul,40,39,85.00,0
+TRIP_1039,Belo Horizonte - São Paulo,Rota Leste,48,47,155.00,0
+TRIP_1040,Fortaleza - Natal,Nordeste Linhas,46,30,110.00,8
+TRIP_1041,São Paulo - Santos,Via Sul,50,48,45.00,0
+TRIP_1042,Recife - Maceió,Nordeste Linhas,46,42,95.00,0
+TRIP_1043,Manaus - Itacoatiara,Rios da Amazônia,60,58,80.00,90
+TRIP_1044,Belém - Castanhal,Rios da Amazônia,50,49,35.00,0
+TRIP_1045,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,44,175.00,0
+TRIP_1046,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,5
+TRIP_1047,Curitiba - Florianópolis,Expresso Sul,44,36,98.00,0
+TRIP_1048,Belo Horizonte - Vitória,Rota Leste,48,31,145.50,0
+TRIP_1049,Salvador - Recife,Nordeste Linhas,46,40,189.90,14
+TRIP_1050,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1051,São Paulo - Campinas,Via Sul,50,49,42.00,3
+TRIP_1052,Rio de Janeiro - Angra dos Reis,Via Sul,40,29,78.00,0
+TRIP_1053,Goiânia - Brasília,Planalto Cargas e Pax,50,50,65.00,0
+TRIP_1054,Fortaleza - Jericoacoara,Nordeste Linhas,40,39,140.00,110
+TRIP_1055,São Paulo - Curitiba,Expresso Sul,44,38,115.00,0
+TRIP_1056,Florianópolis - Porto Alegre,Via Sul,44,43,135.00,0
+TRIP_1057,Belo Horizonte - São Paulo,Rota Leste,48,41,155.00,22
+TRIP_1058,Natal - João Pessoa,Nordeste Linhas,46,45,65.00,0
+TRIP_1059,Salvador - Aracaju,Nordeste Linhas,46,41,92.00,0
+TRIP_1060,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,32,40.00,5
+TRIP_1061,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,0
+TRIP_1062,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1063,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1064,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1065,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1066,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1067,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1068,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1069,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1070,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1071,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1072,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1073,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1074,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1075,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1076,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1077,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1078,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1079,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1080,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1081,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1082,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1083,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1084,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1085,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1086,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1087,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1088,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1089,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1090,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1091,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1092,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1093,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1094,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1095,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1096,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1097,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1098,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1099,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1100,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1101,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1102,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1103,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1104,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1105,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1106,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1107,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1108,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1109,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1110,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1111,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1112,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1113,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1114,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1115,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1116,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1117,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1118,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1119,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1120,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1121,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1122,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1123,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1124,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1125,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1126,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1127,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1128,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1129,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1130,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1131,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1132,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1133,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1134,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1135,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1136,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1137,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1138,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1139,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1140,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1141,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1142,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1143,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1144,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1145,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1146,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1147,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1148,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1149,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1150,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1151,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1152,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1153,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1154,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1155,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1156,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1157,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1158,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1159,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1160,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1161,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1162,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1163,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1164,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1165,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1166,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1167,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1168,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1169,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1170,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1171,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1172,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1173,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1174,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1175,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1176,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1177,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1178,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1179,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1180,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1181,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1182,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1183,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1184,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1185,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1186,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1187,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1188,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1189,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_1190,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0
+TRIP_1191,São Paulo - Santos,Via Sul,50,50,45.00,8
+TRIP_1192,Recife - Maceió,Nordeste Linhas,46,28,95.00,35
+TRIP_1193,Manaus - Itacoatiara,Rios da Amazônia,60,54,80.00,0
+TRIP_1194,Belém - Castanhal,Rios da Amazônia,50,42,35.00,15
+TRIP_1195,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,37,175.00,0
+TRIP_1196,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,0
+TRIP_1197,Curitiba - Florianópolis,Expresso Sul,44,22,98.00,0
+TRIP_1198,Belo Horizonte - Vitória,Rota Leste,48,48,145.50,60
+TRIP_1199,Salvador - Recife,Nordeste Linhas,46,46,189.90,18
+TRIP_1200,Porto Alegre - Gramado,Via Sul,40,28,75.00,0
+TRIP_1201,São Paulo - Campinas,Via Sul,50,44,42.00,0
+TRIP_1202,Rio de Janeiro - Angra dos Reis,Via Sul,40,38,78.00,12
+TRIP_1203,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,0
+TRIP_1204,Fortaleza - Jericoacoara,Nordeste Linhas,40,35,140.00,40
+TRIP_1205,São Paulo - Curitiba,Expresso Sul,44,38,115.00,0
+TRIP_1206,Florianópolis - Porto Alegre,Via Sul,44,43,135.00,0
+TRIP_1207,Belo Horizonte - São Paulo,Rota Leste,48,41,155.00,22
+TRIP_1208,Natal - João Pessoa,Nordeste Linhas,46,45,65.00,0
+TRIP_1209,Salvador - Aracaju,Nordeste Linhas,46,41,92.00,0
+TRIP_1210,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,32,40.00,5
+TRIP_1211,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,0
+TRIP_1212,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1213,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1214,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1215,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1216,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1217,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1218,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1219,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1220,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1221,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1222,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1223,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1224,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1225,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1226,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1227,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1228,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1229,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1230,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1231,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1232,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1233,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1234,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1235,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1236,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1237,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1238,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1239,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1240,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1241,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1242,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1243,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1244,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1245,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1246,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1247,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1248,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1249,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1250,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1251,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1252,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1253,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1254,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1255,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1256,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1257,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1258,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1259,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1260,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1261,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1262,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1263,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1264,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1265,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1266,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1267,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1268,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1269,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1270,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1271,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1272,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1273,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1274,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1275,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1276,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1277,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1278,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1279,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_1280,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0
+TRIP_1281,São Paulo - Santos,Via Sul,50,50,45.00,8
+TRIP_1282,Recife - Maceió,Nordeste Linhas,46,28,95.00,35
+TRIP_1283,Manaus - Itacoatiara,Rios da Amazônia,60,54,80.00,0
+TRIP_1284,Belém - Castanhal,Rios da Amazônia,50,42,35.00,15
+TRIP_1285,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,37,175.00,0
+TRIP_1286,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,0
+TRIP_1287,Curitiba - Florianópolis,Expresso Sul,44,22,98.00,0
+TRIP_1288,Belo Horizonte - Vitória,Rota Leste,48,48,145.50,60
+TRIP_1289,Salvador - Recife,Nordeste Linhas,46,46,189.90,18
+TRIP_1290,Porto Alegre - Gramado,Via Sul,40,28,75.00,0
+TRIP_1291,São Paulo - Campinas,Via Sul,50,44,42.00,0
+TRIP_1292,Rio de Janeiro - Angra dos Reis,Via Sul,40,38,78.00,12
+TRIP_1293,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,0
+TRIP_1294,Fortaleza - Jericoacoara,Nordeste Linhas,40,35,140.00,40
+TRIP_1295,São Paulo - Curitiba,Expresso Sul,44,38,115.00,0
+TRIP_1296,Florianópolis - Porto Alegre,Via Sul,44,43,135.00,0
+TRIP_1297,Belo Horizonte - São Paulo,Rota Leste,48,41,155.00,22
+TRIP_1298,Natal - João Pessoa,Nordeste Linhas,46,45,65.00,0
+TRIP_1299,Salvador - Aracaju,Nordeste Linhas,46,41,92.00,0
+TRIP_1300,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,32,40.00,5
+TRIP_1301,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,0
+TRIP_1302,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1303,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1304,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1305,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1306,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1307,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1308,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1309,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1310,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1311,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1312,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1313,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1314,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1315,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1316,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1317,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1318,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1319,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1320,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1321,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1322,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1323,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1324,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1325,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1326,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1327,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1328,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1329,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1330,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1331,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1332,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1333,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1334,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1335,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1336,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1337,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1338,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1339,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1340,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1341,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1342,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1343,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1344,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1345,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1346,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1347,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1348,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1349,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1350,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1351,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1352,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1353,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1354,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1355,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1356,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1357,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1358,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1359,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1360,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1361,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1362,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1363,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1364,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1365,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1366,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1367,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1368,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1369,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_1370,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0
+TRIP_1371,São Paulo - Santos,Via Sul,50,50,45.00,8
+TRIP_1372,Recife - Maceió,Nordeste Linhas,46,28,95.00,35
+TRIP_1373,Manaus - Itacoatiara,Rios da Amazônia,60,54,80.00,0
+TRIP_1374,Belém - Castanhal,Rios da Amazônia,50,42,35.00,15
+TRIP_1375,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,37,175.00,0
+TRIP_1376,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,0
+TRIP_1377,Curitiba - Florianópolis,Expresso Sul,44,22,98.00,0
+TRIP_1378,Belo Horizonte - Vitória,Rota Leste,48,48,145.50,60
+TRIP_1379,Salvador - Recife,Nordeste Linhas,46,46,189.90,18
+TRIP_1380,Porto Alegre - Gramado,Via Sul,40,28,75.00,0
+TRIP_1381,São Paulo - Campinas,Via Sul,50,44,42.00,0
+TRIP_1382,Rio de Janeiro - Angra dos Reis,Via Sul,40,38,78.00,12
+TRIP_1383,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,0
+TRIP_1384,Fortaleza - Jericoacoara,Nordeste Linhas,40,35,140.00,40
+TRIP_1385,São Paulo - Curitiba,Expresso Sul,44,38,115.00,0
+TRIP_1386,Florianópolis - Porto Alegre,Via Sul,44,43,135.00,0
+TRIP_1387,Belo Horizonte - São Paulo,Rota Leste,48,41,155.00,22
+TRIP_1388,Natal - João Pessoa,Nordeste Linhas,46,45,65.00,0
+TRIP_1389,Salvador - Aracaju,Nordeste Linhas,46,41,92.00,0
+TRIP_1390,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,32,40.00,5
+TRIP_1391,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,0
+TRIP_1392,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1393,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1394,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1395,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1396,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1397,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1398,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1399,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1400,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1401,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1402,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1403,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1404,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1405,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1406,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1407,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1408,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1409,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1410,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1411,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1412,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1413,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1414,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1415,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1416,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1417,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1418,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1419,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1420,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1421,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1422,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1423,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1424,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1425,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1426,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1427,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1428,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1429,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1430,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1431,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1432,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1433,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1434,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1435,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1436,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1437,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1438,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1439,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1440,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1441,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1442,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1443,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1444,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1445,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1446,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1447,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1448,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1449,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1450,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1451,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1452,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1453,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1454,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1455,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1456,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1457,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1458,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1459,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_1460,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0
+TRIP_1461,São Paulo - Santos,Via Sul,50,50,45.00,8
+TRIP_1462,Recife - Maceió,Nordeste Linhas,46,28,95.00,35
+TRIP_1463,Manaus - Itacoatiara,Rios da Amazônia,60,54,80.00,0
+TRIP_1464,Belém - Castanhal,Rios da Amazônia,50,42,35.00,15
+TRIP_1465,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,37,175.00,0
+TRIP_1466,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,0
+TRIP_1467,Curitiba - Florianópolis,Expresso Sul,44,22,98.00,0
+TRIP_1468,Belo Horizonte - Vitória,Rota Leste,48,48,145.50,60
+TRIP_1469,Salvador - Recife,Nordeste Linhas,46,46,189.90,18
+TRIP_1470,Porto Alegre - Gramado,Via Sul,40,28,75.00,0
+TRIP_1471,São Paulo - Campinas,Via Sul,50,44,42.00,0
+TRIP_1472,Rio de Janeiro - Angra dos Reis,Via Sul,40,38,78.00,12
+TRIP_1473,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,0
+TRIP_1474,Fortaleza - Jericoacoara,Nordeste Linhas,40,35,140.00,40
+TRIP_1475,São Paulo - Curitiba,Expresso Sul,44,38,115.00,0
+TRIP_1476,Florianópolis - Porto Alegre,Via Sul,44,43,135.00,0
+TRIP_1477,Belo Horizonte - São Paulo,Rota Leste,48,41,155.00,22
+TRIP_1478,Natal - João Pessoa,Nordeste Linhas,46,45,65.00,0
+TRIP_1479,Salvador - Aracaju,Nordeste Linhas,46,41,92.00,0
+TRIP_1480,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,32,40.00,5
+TRIP_1481,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,0
+TRIP_1482,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1483,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1484,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1485,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1486,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1487,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1488,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1489,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1490,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1491,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1492,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1493,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1494,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1495,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1496,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1497,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1498,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1499,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1500,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1501,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1502,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1503,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1504,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1505,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1506,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1507,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1508,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1509,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1510,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1511,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1512,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1513,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1514,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1515,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1516,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1517,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1518,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1519,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1520,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1521,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1522,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1523,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1524,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1525,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1526,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1527,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1528,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1529,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1530,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1531,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1532,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1533,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1534,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1535,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1536,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1537,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1538,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1539,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1540,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1541,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1542,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1543,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1544,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1545,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1546,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1547,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1548,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1549,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_1550,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0
+TRIP_1551,São Paulo - Santos,Via Sul,50,50,45.00,8
+TRIP_1552,Recife - Maceió,Nordeste Linhas,46,28,95.00,35
+TRIP_1553,Manaus - Itacoatiara,Rios da Amazônia,60,54,80.00,0
+TRIP_1554,Belém - Castanhal,Rios da Amazônia,50,42,35.00,15
+TRIP_1555,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,37,175.00,0
+TRIP_1556,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,0
+TRIP_1557,Curitiba - Florianópolis,Expresso Sul,44,22,98.00,0
+TRIP_1558,Belo Horizonte - Vitória,Rota Leste,48,48,145.50,60
+TRIP_1559,Salvador - Recife,Nordeste Linhas,46,46,189.90,18
+TRIP_1560,Porto Alegre - Gramado,Via Sul,40,28,75.00,0
+TRIP_1561,São Paulo - Campinas,Via Sul,50,44,42.00,0
+TRIP_1562,Rio de Janeiro - Angra dos Reis,Via Sul,40,38,78.00,12
+TRIP_1563,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,0
+TRIP_1564,Fortaleza - Jericoacoara,Nordeste Linhas,40,35,140.00,40
+TRIP_1565,São Paulo - Curitiba,Expresso Sul,44,38,115.00,0
+TRIP_1566,Florianópolis - Porto Alegre,Via Sul,44,43,135.00,0
+TRIP_1567,Belo Horizonte - São Paulo,Rota Leste,48,41,155.00,22
+TRIP_1568,Natal - João Pessoa,Nordeste Linhas,46,45,65.00,0
+TRIP_1569,Salvador - Aracaju,Nordeste Linhas,46,41,92.00,0
+TRIP_1570,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,32,40.00,5
+TRIP_1571,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,0
+TRIP_1572,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1573,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1574,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1575,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1576,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1577,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1578,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1579,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1580,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1581,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1582,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1583,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1584,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1585,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1586,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1587,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1588,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1589,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1590,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1591,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1592,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1593,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1594,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1595,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1596,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1597,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1598,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1599,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1600,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1601,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1602,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1603,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1604,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1605,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1606,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1607,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1608,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1609,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1610,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1611,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1612,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1613,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1614,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1615,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1616,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1617,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1618,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1619,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1620,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1621,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1622,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1623,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1624,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1625,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1626,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1627,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1628,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1629,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1630,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1631,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1632,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1633,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1634,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1635,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1636,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1637,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1638,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1639,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_1640,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0
+TRIP_1641,São Paulo - Santos,Via Sul,50,50,45.00,8
+TRIP_1642,Recife - Maceió,Nordeste Linhas,46,28,95.00,35
+TRIP_1643,Manaus - Itacoatiara,Rios da Amazônia,60,54,80.00,0
+TRIP_1644,Belém - Castanhal,Rios da Amazônia,50,42,35.00,15
+TRIP_1645,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,37,175.00,0
+TRIP_1646,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,0
+TRIP_1647,Curitiba - Florianópolis,Expresso Sul,44,22,98.00,0
+TRIP_1648,Belo Horizonte - Vitória,Rota Leste,48,48,145.50,60
+TRIP_1649,Salvador - Recife,Nordeste Linhas,46,46,189.90,18
+TRIP_1650,Porto Alegre - Gramado,Via Sul,40,28,75.00,0
+TRIP_1651,São Paulo - Campinas,Via Sul,50,44,42.00,0
+TRIP_1652,Rio de Janeiro - Angra dos Reis,Via Sul,40,38,78.00,12
+TRIP_1653,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,0
+TRIP_1654,Fortaleza - Jericoacoara,Nordeste Linhas,40,35,140.00,40
+TRIP_1655,São Paulo - Curitiba,Expresso Sul,44,38,115.00,0
+TRIP_1656,Florianópolis - Porto Alegre,Via Sul,44,43,135.00,0
+TRIP_1657,Belo Horizonte - São Paulo,Rota Leste,48,41,155.00,22
+TRIP_1658,Natal - João Pessoa,Nordeste Linhas,46,45,65.00,0
+TRIP_1659,Salvador - Aracaju,Nordeste Linhas,46,41,92.00,0
+TRIP_1660,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,32,40.00,5
+TRIP_1661,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,0
+TRIP_1662,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1663,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1664,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1665,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1666,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1667,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1668,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1669,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1670,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1671,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1672,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1673,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1674,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1675,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1676,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1677,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1678,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1679,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1680,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1681,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1682,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1683,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1684,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1685,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1686,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1687,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1688,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1689,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1690,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1691,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1692,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1693,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1694,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1695,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1696,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1697,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1698,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1699,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1700,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1701,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1702,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1703,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1704,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1705,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1706,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1707,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1708,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1709,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1710,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1711,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1712,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1713,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1714,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1715,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1716,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1717,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1718,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1719,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1720,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1721,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1722,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1723,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1724,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1725,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1726,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1727,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1728,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1729,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_1730,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0
+TRIP_1731,São Paulo - Santos,Via Sul,50,50,45.00,8
+TRIP_1732,Recife - Maceió,Nordeste Linhas,46,28,95.00,35
+TRIP_1733,Manaus - Itacoatiara,Rios da Amazônia,60,54,80.00,0
+TRIP_1734,Belém - Castanhal,Rios da Amazônia,50,42,35.00,15
+TRIP_1735,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,37,175.00,0
+TRIP_1736,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,0
+TRIP_1737,Curitiba - Florianópolis,Expresso Sul,44,22,98.00,0
+TRIP_1738,Belo Horizonte - Vitória,Rota Leste,48,48,145.50,60
+TRIP_1739,Salvador - Recife,Nordeste Linhas,46,46,189.90,18
+TRIP_1740,Porto Alegre - Gramado,Via Sul,40,28,75.00,0
+TRIP_1741,São Paulo - Campinas,Via Sul,50,44,42.00,0
+TRIP_1742,Rio de Janeiro - Angra dos Reis,Via Sul,40,38,78.00,12
+TRIP_1743,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,0
+TRIP_1744,Fortaleza - Jericoacoara,Nordeste Linhas,40,35,140.00,40
+TRIP_1745,São Paulo - Curitiba,Expresso Sul,44,38,115.00,0
+TRIP_1746,Florianópolis - Porto Alegre,Via Sul,44,43,135.00,0
+TRIP_1747,Belo Horizonte - São Paulo,Rota Leste,48,41,155.00,22
+TRIP_1748,Natal - João Pessoa,Nordeste Linhas,46,45,65.00,0
+TRIP_1749,Salvador - Aracaju,Nordeste Linhas,46,41,92.00,0
+TRIP_1750,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,32,40.00,5
+TRIP_1751,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,0
+TRIP_1752,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1753,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1754,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1755,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1756,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1757,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1758,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1759,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1760,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1761,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1762,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1763,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1764,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1765,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1766,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1767,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1768,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1769,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1770,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1771,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1772,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1773,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1774,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1775,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1776,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1777,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1778,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1779,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1780,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1781,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1782,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1783,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1784,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1785,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1786,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1787,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1788,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1789,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1790,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1791,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1792,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1793,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1794,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1795,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1796,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1797,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1798,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1799,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1800,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1801,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1802,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1803,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1804,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1805,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1806,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1807,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1808,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1809,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1810,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1811,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1812,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1813,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1814,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1815,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1816,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1817,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1818,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1819,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_1820,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0
+TRIP_1821,São Paulo - Santos,Via Sul,50,50,45.00,8
+TRIP_1822,Recife - Maceió,Nordeste Linhas,46,28,95.00,35
+TRIP_1823,Manaus - Itacoatiara,Rios da Amazônia,60,54,80.00,0
+TRIP_1824,Belém - Castanhal,Rios da Amazônia,50,42,35.00,15
+TRIP_1825,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,37,175.00,0
+TRIP_1826,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,0
+TRIP_1827,Curitiba - Florianópolis,Expresso Sul,44,22,98.00,0
+TRIP_1828,Belo Horizonte - Vitória,Rota Leste,48,48,145.50,60
+TRIP_1829,Salvador - Recife,Nordeste Linhas,46,46,189.90,18
+TRIP_1830,Porto Alegre - Gramado,Via Sul,40,28,75.00,0
+TRIP_1831,São Paulo - Campinas,Via Sul,50,44,42.00,0
+TRIP_1832,Rio de Janeiro - Angra dos Reis,Via Sul,40,38,78.00,12
+TRIP_1833,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,0
+TRIP_1834,Fortaleza - Jericoacoara,Nordeste Linhas,40,35,140.00,40
+TRIP_1835,São Paulo - Curitiba,Expresso Sul,44,38,115.00,0
+TRIP_1836,Florianópolis - Porto Alegre,Via Sul,44,43,135.00,0
+TRIP_1837,Belo Horizonte - São Paulo,Rota Leste,48,41,155.00,22
+TRIP_1838,Natal - João Pessoa,Nordeste Linhas,46,45,65.00,0
+TRIP_1839,Salvador - Aracaju,Nordeste Linhas,46,41,92.00,0
+TRIP_1840,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,32,40.00,5
+TRIP_1841,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,0
+TRIP_1842,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1843,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1844,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1845,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1846,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1847,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1848,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1849,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1850,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1851,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1852,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1853,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1854,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1855,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1856,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1857,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1858,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1859,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1860,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1861,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1862,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1863,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1864,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1865,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1866,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1867,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1868,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1869,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1870,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1871,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1872,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1873,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1874,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1875,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1876,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1877,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1878,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1879,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1880,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1881,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1882,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1883,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1884,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1885,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1886,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1887,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1888,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1889,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1890,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1891,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1892,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1893,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1894,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1895,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1896,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1897,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1898,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1899,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1900,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1901,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1902,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1903,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1904,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1905,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1906,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1907,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1908,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1909,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_1910,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0
+TRIP_1911,São Paulo - Santos,Via Sul,50,50,45.00,8
+TRIP_1912,Recife - Maceió,Nordeste Linhas,46,28,95.00,35
+TRIP_1913,Manaus - Itacoatiara,Rios da Amazônia,60,54,80.00,0
+TRIP_1914,Belém - Castanhal,Rios da Amazônia,50,42,35.00,15
+TRIP_1915,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,37,175.00,0
+TRIP_1916,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,0
+TRIP_1917,Curitiba - Florianópolis,Expresso Sul,44,22,98.00,0
+TRIP_1918,Belo Horizonte - Vitória,Rota Leste,48,48,145.50,60
+TRIP_1919,Salvador - Recife,Nordeste Linhas,46,46,189.90,18
+TRIP_1920,Porto Alegre - Gramado,Via Sul,40,28,75.00,0
+TRIP_1921,São Paulo - Campinas,Via Sul,50,44,42.00,0
+TRIP_1922,Rio de Janeiro - Angra dos Reis,Via Sul,40,38,78.00,12
+TRIP_1923,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,0
+TRIP_1924,Fortaleza - Jericoacoara,Nordeste Linhas,40,35,140.00,40
+TRIP_1925,São Paulo - Curitiba,Expresso Sul,44,38,115.00,0
+TRIP_1926,Florianópolis - Porto Alegre,Via Sul,44,43,135.00,0
+TRIP_1927,Belo Horizonte - São Paulo,Rota Leste,48,41,155.00,22
+TRIP_1928,Natal - João Pessoa,Nordeste Linhas,46,45,65.00,0
+TRIP_1929,Salvador - Aracaju,Nordeste Linhas,46,41,92.00,0
+TRIP_1930,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,32,40.00,5
+TRIP_1931,São Paulo - Rio de Janeiro,Expresso Sul,44,44,129.90,0
+TRIP_1932,Belo Horizonte - Vitória,Rota Leste,48,43,145.50,18
+TRIP_1933,Curitiba - Florianópolis,Expresso Sul,44,41,98.00,0
+TRIP_1934,Brasília - Goiânia,Planalto Cargas e Pax,50,47,65.00,0
+TRIP_1935,Salvador - Recife,Nordeste Linhas,46,39,189.90,30
+TRIP_1936,Porto Alegre - Gramado,Via Sul,40,36,75.00,0
+TRIP_1937,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1938,Rio de Janeiro - Búzios,Via Sul,40,35,85.00,0
+TRIP_1939,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,14
+TRIP_1940,Fortaleza - Natal,Nordeste Linhas,46,41,110.00,0
+TRIP_1941,São Paulo - Santos,Via Sul,50,43,45.00,0
+TRIP_1942,Recife - Maceió,Nordeste Linhas,46,33,95.00,45
+TRIP_1943,Manaus - Itacoatiara,Rios da Amazônia,60,52,80.00,0
+TRIP_1944,Belém - Castanhal,Rios da Amazônia,50,40,35.00,0
+TRIP_1945,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,46,175.00,25
+TRIP_1946,São Paulo - Rio de Janeiro,Expresso Sul,44,43,129.90,0
+TRIP_1947,Curitiba - Florianópolis,Expresso Sul,44,38,98.00,0
+TRIP_1948,Belo Horizonte - Vitória,Rota Leste,48,40,145.50,0
+TRIP_1949,Salvador - Recife,Nordeste Linhas,46,42,189.90,12
+TRIP_1950,Porto Alegre - Gramado,Via Sul,40,34,75.00,0
+TRIP_1951,São Paulo - Campinas,Via Sul,50,41,42.00,0
+TRIP_1952,Rio de Janeiro - Angra dos Reis,Via Sul,40,33,78.00,0
+TRIP_1953,Goiânia - Brasília,Planalto Cargas e Pax,50,42,65.00,10
+TRIP_1954,Fortaleza - Jericoacoara,Nordeste Linhas,40,37,140.00,0
+TRIP_1955,São Paulo - Curitiba,Expresso Sul,44,39,115.00,0
+TRIP_1956,Florianópolis - Porto Alegre,Via Sul,44,37,135.00,15
+TRIP_1957,Belo Horizonte - São Paulo,Rota Leste,48,43,155.00,0
+TRIP_1958,Natal - João Pessoa,Nordeste Linhas,46,42,65.00,0
+TRIP_1959,Salvador - Aracaju,Nordeste Linhas,46,39,92.00,0
+TRIP_1960,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,35,40.00,8
+TRIP_1961,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1962,Belo Horizonte - Vitória,Rota Leste,48,41,145.50,0
+TRIP_1963,Curitiba - Florianópolis,Expresso Sul,44,40,98.00,12
+TRIP_1964,Brasília - Goiânia,Planalto Cargas e Pax,50,44,65.00,0
+TRIP_1965,Salvador - Recife,Nordeste Linhas,46,40,189.90,0
+TRIP_1966,Porto Alegre - Gramado,Via Sul,40,37,75.00,0
+TRIP_1967,São Paulo - Rio de Janeiro,Expresso Sul,44,40,129.90,14
+TRIP_1968,Rio de Janeiro - Búzios,Via Sul,40,36,85.00,0
+TRIP_1969,Belo Horizonte - São Paulo,Rota Leste,48,42,155.00,0
+TRIP_1970,Fortaleza - Natal,Nordeste Linhas,46,39,110.00,5
+TRIP_1971,São Paulo - Santos,Via Sul,50,45,45.00,0
+TRIP_1972,Recife - Maceió,Nordeste Linhas,46,37,95.00,20
+TRIP_1973,Manaus - Itacoatiara,Rios da Amazônia,60,55,80.00,0
+TRIP_1974,Belém - Castanhal,Rios da Amazônia,50,44,35.00,0
+TRIP_1975,Brasília - Belo Horizonte,Planalto Cargas e Pax,48,43,175.00,10
+TRIP_1976,São Paulo - Rio de Janeiro,Expresso Sul,44,42,129.90,0
+TRIP_1977,Curitiba - Florianópolis,Expresso Sul,44,39,98.00,0
+TRIP_1978,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1979,Salvador - Recife,Nordeste Linhas,46,41,189.90,8
+TRIP_1980,Porto Alegre - Gramado,Via Sul,40,35,75.00,0
+TRIP_1981,São Paulo - Campinas,Via Sul,50,46,42.00,0
+TRIP_1982,Rio de Janeiro - Angra dos Reis,Via Sul,40,34,78.00,0
+TRIP_1983,Goiânia - Brasília,Planalto Cargas e Pax,50,45,65.00,15
+TRIP_1984,Fortaleza - Jericoacoara,Nordeste Linhas,40,38,140.00,0
+TRIP_1985,São Paulo - Curitiba,Expresso Sul,44,41,115.00,0
+TRIP_1986,Florianópolis - Porto Alegre,Via Sul,44,39,135.00,12
+TRIP_1987,Belo Horizonte - São Paulo,Rota Leste,48,44,155.00,0
+TRIP_1988,Natal - João Pessoa,Nordeste Linhas,46,43,65.00,0
+TRIP_1989,Salvador - Aracaju,Nordeste Linhas,46,40,92.00,0
+TRIP_1990,Cuiabá - Chapada dos Guimarães,Planalto Cargas e Pax,40,36,40.00,0
+TRIP_1991,São Paulo - Rio de Janeiro,Expresso Sul,44,38,129.90,12
+TRIP_1992,Belo Horizonte - Vitória,Rota Leste,48,42,145.50,0
+TRIP_1993,Curitiba - Florianópolis,Expresso Sul,44,44,98.00,45
+TRIP_1994,Brasília - Goiânia,Planalto Cargas e Pax,50,49,65.00,5
+TRIP_1995,Salvador - Recife,Nordeste Linhas,46,31,189.90,0
+TRIP_1996,Porto Alegre - Gramado,Via Sul,40,39,75.00,0
+TRIP_1997,São Paulo - Rio de Janeiro,Expresso Sul,44,41,129.90,0
+TRIP_1998,Rio de Janeiro - Búzios,Via Sul,40,32,85.00,25
+TRIP_1999,Belo Horizonte - São Paulo,Rota Leste,48,46,155.00,10
+TRIP_2000,Fortaleza - Natal,Nordeste Linhas,46,45,110.00,0

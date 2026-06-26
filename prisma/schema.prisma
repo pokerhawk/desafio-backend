@@ -1,0 +1,69 @@
+generator client {
+    provider = "prisma-client-js"
+    binaryTargets = ["native", "rhel-openssl-1.0.x"]//if you use windows you must specify it here (, "windows")
+}
+
+datasource db {
+    provider = "postgresql"
+    url = env("DATABASE_URL")
+}
+
+//////////////////////////////////////**************/////////////////////////////////////////////////////
+
+model User {
+    id          String      @id @default(uuid())
+    operator    String      @unique
+    email       String      @unique
+    password    String
+    mfaEnabled  Boolean     @default(false)
+    mfaSecret   String?
+    createdAt   DateTime    @default(now())
+    updatedAt   DateTime    @updatedAt
+    deletedAt   DateTime?
+    Trip        Trip[]
+}
+
+model Trip {
+    id                  String              @id @default(uuid())
+    status              String
+    destination         String
+    flight_number       String
+    departure_date      DateTime
+    trip_id             String              @unique()
+    route               String
+    passengers          Int
+    ticket_price        Int
+    delay_minutes       Int
+    createdAt           DateTime            @default(now())
+    updatedAt           DateTime            @updatedAt
+    deletedAt           DateTime?
+    User                User[]
+    Passengers          Passenger[]
+}
+
+model Passenger {
+    id              String              @id @default(uuid())
+    name            String
+    document        String              @unique()
+    documentType    DocumentTypeEnum    @default(cpf)
+    seat_number     String
+    flight_class    FlightClassEnum     @default(economic)
+    createdAt       DateTime            @default(now())
+    updatedAt       DateTime            @updatedAt
+    deletedAt       DateTime?
+    Trip            Trip                @relation(fields: [tripId], references: [id])
+    tripId          String
+}
+
+//////////////////////////////////////**************/////////////////////////////////////////////////////
+
+enum FlightClassEnum {
+    first_class
+    executive
+    economic
+}
+
+enum DocumentTypeEnum {
+    cpf
+    passport
+}
