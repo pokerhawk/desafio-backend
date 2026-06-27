@@ -12,7 +12,7 @@ export class TripService {
 
     async createPassenger(body: CreatePassangerDto){
         const tripExists = await this.prisma.trip.findUnique({
-            where: { trip_id: body.trip_id }
+            where: { id: body.trip_id }
         });
         if(!tripExists)throw new BadRequestException("Trip doesn't exists");
         
@@ -62,10 +62,11 @@ export class TripService {
     async getTrips(query: GetTripsDto){
         const whereOptions: Prisma.TripWhereInput = {};
 
-        if(query.trip_id) whereOptions.trip_id = query.trip_id;
+        if(query.trip_id) whereOptions.id = query.trip_id;
         if(query.status) whereOptions.status = query.status;
-        if(query.departure_date) whereOptions.departure_date = query.departure_date;
+        if(query.departure_date) whereOptions.departure_date = new Date(query.departure_date);
 
+        console.log(whereOptions)
         const [users, usersCount] = await this.prisma.$transaction([
             this.prisma.trip.findMany({
                 where: whereOptions,

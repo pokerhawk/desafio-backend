@@ -1,8 +1,20 @@
 import { Injectable } from '@nestjs/common';
 import { ClientService } from 'src/client/client.service';
-import { numberToBRL, removeSpaces, toPercentString } from 'src/utils/functions';
+import { generateRandomFlightCode, numberToBRL, randomFutureDate, toPercentString } from 'src/utils/functions';
 import * as XLSX from 'xlsx';
 import * as iconv from 'iconv-lite';
+import { Prisma, Trip } from '@prisma/client';
+
+interface TripProps {
+    trip_id: string;
+    route_name: string;
+    operator_assigned: string;
+    capacity: number;
+    average_occupancy: string;
+    actual_passengers: number;
+    ticket_price: number;
+    delay_minutes: number;
+}
 
 @Injectable()
 export class AnalyticsService {
@@ -10,8 +22,9 @@ export class AnalyticsService {
         private readonly prisma: ClientService,
     ){}
 
-
     async importExcel(file: Express.Multer.File) {
+        const isThereAnyTrips = await this.prisma.trip.findFirst();
+        const firstOperator = await this.prisma.user.findFirst();
         const workbook = XLSX.read(file.buffer, {
             type:'buffer',
             codepage: 65001
@@ -23,9 +36,9 @@ export class AnalyticsService {
 
         const validRows: any[] = [];
         const errors: any[] = [];
-        let totalPassengers = 0;
-        let totalCapacity = 0;
-        let totalExpectedRevenue = 0;
+        let total_passengers = 0;
+        let total_capacity = 0;
+        let total_expected_revenue = 0;
 
         const grouped = new Map<string, number>();
         let maxKey = '';
@@ -57,11 +70,11 @@ export class AnalyticsService {
                 return;
             }
 
-            totalPassengers += actual_passengers;
-            totalCapacity += capacity;
+            total_passengers += actual_passengers;
+            total_capacity += capacity;
             const average_occupancy = (actual_passengers*100)/capacity;
-            const expectedRevenue = actual_passengers * ticket_price;
-            totalExpectedRevenue += expectedRevenue;
+            const expected_revenue = actual_passengers * ticket_price;
+            total_expected_revenue += expected_revenue;
 
             const key = `${row.route_name}::${row.operator_assigned}`;
             const delay = Number(row.delay_minutes) || 0;
@@ -73,7 +86,7 @@ export class AnalyticsService {
                 operator_assigned,
                 capacity,
                 average_occupancy: toPercentString(average_occupancy),
-                expectedRevenue: numberToBRL(expectedRevenue.toFixed(2)),
+                expected_revenue: numberToBRL(expected_revenue.toFixed(2)),
                 actual_passengers,
                 ticket_price,
                 delay_minutes,
@@ -94,64 +107,39 @@ export class AnalyticsService {
           total_delay: maxValue,
         };
 
-
-        // const allData = workbook.SheetNames.flatMap((name) => {
-        //     const sheet = workbook.Sheets[name];
-        //     const rows = XLSX.utils.sheet_to_json(sheet);
-
-        //     console.log(`Sheet: ${name}`);
-        //     console.log(`Rows: ${rows.length}`);
-
-        //     return rows.map((row: any) => ({
-        //         trip_id: row.trip_id,
-        //         route_name: row.route_name,
-        //         operator_assigned: row.operator_assigned,
-        //         capacity: row.capacity,
-        //         actual_passengers: row.actual_passengers,
-        //         ticket_price: row.ticket_price,
-        //         delay_minutes: row.delay_minutes,
-        //         sheet: name,
-        //     }));
-        // })
-
-        // constros data = rows.map((row: any) => ({
-        //     trip_id: row.trip_id,
-        //     route_name: row.route_name,
-        //     operator_assigned: row.operator_assigned,
-        //     capacity: row.capacity,
-        //     actual_passengers: row.actual_passengers,
-        //     ticket_price: row.ticket_price,
-        //     delay_minutes: row.delay_minutes,
-        // }));
-
-        // await this.prisma.user.createMany({
-        //     data,
-        //     skipDuplicates: true,
-        // });
-
-        // const createTripTest = await this.prisma.trip.create({
-        //     data: {
-        //         status: "on_route",
-        //         destination: `${validRows[0].route_name.split("-")[1]}`,
-        //         flight_number: "42",
-        //         departure_date: new Date(),
-        //         trip_id: validRows[0].trip_id,
-        //         route: validRows[0].route_name,
-        //         passengers: validRows[0].actual_passengers,
-        //         ticket_price: validRows[0].ticket_price,
-        //         delay_minutes: validRows[0].delay_minutes
-        //     }
-        // })
-
-        // console.log(createTripTest)
+        if(!isThereAnyTrips){
+            const formatted:Prisma.TripCreateManyInput[] = validRows.map((trip: TripProps) => ({
+                id: trip.trip_id,
+                status: 'awaiting',
+                destination: trip.route_name.split("-")[1].replace(" ", ""),
+                flight_number: generateRandomFlightCode(),
+                departure_date: randomFutureDate(),
+                route: trip.route_name,
+                passengers: trip.actual_passengers,
+                ticket_price: trip.ticket_price,
+                delay_minutes: trip.delay_minutes,
+            }))
+            const operatorUserFormatted: Prisma.UserTripCreateManyInput[] = formatted.map((data: Trip) => ({
+                tripId: data.id,
+                userId: firstOperator.id
+            }));
+            await this.prisma.trip.createMany({
+                data: formatted,
+                skipDuplicates: true
+            })
+            await this.prisma.userTrip.createMany({
+                data: operatorUserFormatted,
+                skipDuplicates: true
+            })
+        }
 
         return {
-            totalPassengers,
-            total_average_occupancy: toPercentString((totalPassengers*100)/totalCapacity),
-            totalExpectedRevenue: numberToBRL(totalExpectedRevenue.toFixed(2)),
+            total_passengers,
+            total_average_occupancy: toPercentString((total_passengers*100)/total_capacity),
+            total_expected_revenue: numberToBRL(total_expected_revenue.toFixed(2)),
             bottleneck,
-            validRows,
-            errors
+            // validRows,
+            // errors
         }
     }
 }

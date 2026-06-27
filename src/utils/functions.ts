@@ -48,3 +48,25 @@ export const convertUTCtoSaoPauloTime = (date: Date) =>{
 
   return saoPauloTimeDate;
 }
+
+export const generateRandomFlightCode = () => {
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const numbers = "0123456789";
+  let result = "";
+  for (let i = 0; i < 2; i++) {
+    result += letters[Math.floor(Math.random() * letters.length)];
+  }
+  for (let i = 0; i < 4; i++) {
+    result += numbers[Math.floor(Math.random() * numbers.length)];
+  }
+  return result;
+}
+
+export const randomFutureDate = (maxDaysAhead = 90) => {
+  const now = Date.now();
+
+  const randomDays = Math.floor(Math.random() * maxDaysAhead) + 1;
+  const randomMs = randomDays * 24 * 60 * 60 * 1000;
+
+  return new Date(now + randomMs);
+}

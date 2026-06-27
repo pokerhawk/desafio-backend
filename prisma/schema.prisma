@@ -11,48 +11,63 @@ datasource db {
 //////////////////////////////////////**************/////////////////////////////////////////////////////
 
 model User {
-    id          String      @id @default(uuid())
-    operator    String      @unique
-    email       String      @unique
+    id          String           @id @default(uuid())
+    operator    String           @unique
+    email       String           @unique
     password    String
-    mfaEnabled  Boolean     @default(false)
+    mfaEnabled  Boolean          @default(false)
     mfaSecret   String?
-    createdAt   DateTime    @default(now())
-    updatedAt   DateTime    @updatedAt
+    createdAt   DateTime         @default(now())
+    updatedAt   DateTime         @updatedAt
     deletedAt   DateTime?
-    Trip        Trip[]
+
+    trips       UserTrip[]
 }
 
 model Trip {
-    id                  String              @id @default(uuid())
-    status              String
-    destination         String
-    flight_number       String
-    departure_date      DateTime
-    trip_id             String              @unique()
-    route               String
-    passengers          Int
-    ticket_price        Int
-    delay_minutes       Int
-    createdAt           DateTime            @default(now())
-    updatedAt           DateTime            @updatedAt
-    deletedAt           DateTime?
-    User                User[]
-    Passengers          Passenger[]
+    id             String         @id
+    status         String
+    destination    String
+    flight_number  String
+    departure_date DateTime
+    route          String
+    passengers     Int
+    ticket_price   Int
+    delay_minutes  Int
+    createdAt      DateTime       @default(now())
+    updatedAt      DateTime       @updatedAt
+    deletedAt      DateTime?
+
+    users          UserTrip[]
+    passengersList Passenger[]
+}
+
+model UserTrip {
+    userId String
+    tripId String
+
+    user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+    trip   Trip @relation(fields: [tripId], references: [id], onDelete: Cascade)
+
+    createdAt DateTime @default(now())
+
+    @@id([userId, tripId])
+    @@map("UserTrips")
 }
 
 model Passenger {
-    id              String              @id @default(uuid())
-    name            String
-    document        String              @unique()
-    documentType    DocumentTypeEnum    @default(cpf)
-    seat_number     String
-    flight_class    FlightClassEnum     @default(economic)
-    createdAt       DateTime            @default(now())
-    updatedAt       DateTime            @updatedAt
-    deletedAt       DateTime?
-    Trip            Trip                @relation(fields: [tripId], references: [id])
-    tripId          String
+    id           String           @id @default(uuid())
+    name         String
+    document     String           @unique()
+    documentType DocumentTypeEnum @default(cpf)
+    seat_number  String
+    flight_class FlightClassEnum  @default(economic)
+    createdAt    DateTime         @default(now())
+    updatedAt    DateTime         @updatedAt
+    deletedAt    DateTime?
+
+    tripId String
+    trip   Trip @relation(fields: [tripId], references: [id], onDelete: Cascade)
 }
 
 //////////////////////////////////////**************/////////////////////////////////////////////////////
