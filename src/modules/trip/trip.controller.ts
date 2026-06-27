@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Post, Query, UseGuards } from '@nestjs/common';
 import { TripService } from './trip.service';
 import { JwtAuthGuard } from 'src/modules/auth/guards/jwt-auth.guard';
-import { CreatePassangerDto, GetPassengersDto, GetTripsDto } from './dto/trip.dto';
+import { CreatePassangerDto, CreateTripDto, GetPassengersDto, GetTripsDto } from './dto/trip.dto';
 
 @UseGuards(JwtAuthGuard)
 @Controller('trips')
@@ -10,11 +10,18 @@ export class TripController {
         private readonly tripService: TripService
     ){}
 
-    @Post()
+    @Post('passenger')
     createPassenger(
         @Body() body: CreatePassangerDto
     ){
         return this.tripService.createPassenger(body);
+    }
+
+    @Post()
+    createTrip(
+        @Body() body: CreateTripDto
+    ){
+        return this.tripService.createTrip(body);
     }
 
     @Get('passengers')

@@ -1,6 +1,6 @@
 import { BadRequestException, HttpStatus, Injectable } from '@nestjs/common';
 import { ClientService } from 'src/client/client.service';
-import { CreatePassangerDto, GetPassengersDto, GetTripsDto } from './dto/trip.dto';
+import { CreatePassangerDto, CreateTripDto, GetPassengersDto, GetTripsDto } from './dto/trip.dto';
 import { paginated, skipOption } from 'src/utils/pagination/pagination';
 import { Prisma } from '@prisma/client';
 
@@ -15,21 +15,61 @@ export class TripService {
             where: { id: body.trip_id }
         });
         if(!tripExists)throw new BadRequestException("Trip doesn't exists");
-        
-        await this.prisma.passenger.create({
-            data: {
-                name: body.name,
-                document: body.document,
-                seat_number: body.seat_number,
-                documentType: body.documentType,
-                flight_class: body.flight_class,
-                tripId: tripExists.id
-            }
-        })
 
-        return {
-            statusCode: HttpStatus.CREATED,
-            message: "Passageiro Criado"
+        try{
+            await this.prisma.passenger.create({
+                data: {
+                    name: body.name,
+                    document: body.document,
+                    seat_number: body.seat_number,
+                    documentType: body.documentType,
+                    flight_class: body.flight_class,
+                    tripId: tripExists.id
+                }
+            })
+            return {
+                statusCode: HttpStatus.CREATED,
+                message: "Passageiro Criado"
+            }
+        }catch(error){
+            if(
+                error instanceof Prisma.PrismaClientKnownRequestError &&
+                error.code === "P2002"
+            ){
+                throw new BadRequestException(
+                    "Documento já cadastrado"
+                );
+            }
+            throw error;
+        }
+    }
+
+    async createTrip(body: CreateTripDto){
+        const tripExists = await this.prisma.trip.findUnique({
+            where: { id: body.id }
+        });
+        if(tripExists)throw new BadRequestException("Viagem já existe");
+
+        try{
+            await this.prisma.trip.create({
+                data: {
+                    id: body.id,
+                    status: body.status,
+                    destination: body.destination,
+                    flight_number: body.flight_number,
+                    departure_date: body.departure_date,
+                    route: body.route,
+                    passengers: body.passengers,
+                    ticket_price: body.ticket_price,
+                    delay_minutes: body.delay_minutes
+                }
+            })
+            return {
+                statusCode: HttpStatus.CREATED,
+                message: "Passageiro Criado"
+            }
+        }catch(error){
+            throw error;
         }
     }
 

@@ -1,6 +1,35 @@
 import { DocumentTypeEnum, FlightClassEnum } from "@prisma/client";
 import { Type } from "class-transformer";
-import { IsEnum, IsNumber, IsOptional, IsString } from "class-validator";
+import { IsDate, IsEnum, IsNumber, IsOptional, IsString } from "class-validator";
+
+export class CreateTripDto {
+  @IsString()
+  id: string;
+
+  @IsString()
+  status: string;
+
+  @IsString()
+  destination: string;
+
+  @IsString()
+  flight_number: string;
+
+  @IsDate()
+  departure_date: Date;
+
+  @IsString()
+  route: string;
+
+  @IsNumber()
+  passengers: number;
+
+  @IsNumber()
+  ticket_price: number;
+
+  @IsNumber()
+  delay_minutes: number;
+}
 
 export class CreatePassangerDto {
   @IsString()
