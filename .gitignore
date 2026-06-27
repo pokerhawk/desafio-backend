@@ -1,7 +1,5 @@
-.env
 dist/
 yarn.lock
 node_modules/
 generated/
-.env.*
 swap_env.sh
