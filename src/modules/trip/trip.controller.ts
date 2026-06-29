@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Post, Query, UseGuards } from '@nestjs/common';
+import { Body, Controller, Get, Post, Query, Request, UseGuards } from '@nestjs/common';
 import { TripService } from './trip.service';
 import { JwtAuthGuard } from 'src/modules/auth/guards/jwt-auth.guard';
 import { CreatePassangerDto, CreateTripDto, GetPassengersDto, GetTripsDto } from './dto/trip.dto';
@@ -19,9 +19,10 @@ export class TripController {
 
     @Post()
     createTrip(
+        @Request() req: any,
         @Body() body: CreateTripDto
     ){
-        return this.tripService.createTrip(body);
+        return this.tripService.createTrip(req.user.id, body);
     }
 
     @Get('passengers')

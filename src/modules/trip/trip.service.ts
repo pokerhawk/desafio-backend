@@ -44,14 +44,14 @@ export class TripService {
         }
     }
 
-    async createTrip(body: CreateTripDto){
+    async createTrip(loggedUserId: string, body: CreateTripDto){
         const tripExists = await this.prisma.trip.findUnique({
             where: { id: body.id }
         });
         if(tripExists)throw new BadRequestException("Viagem já existe");
 
         try{
-            await this.prisma.trip.create({
+            const createTrip = await this.prisma.trip.create({
                 data: {
                     id: body.id,
                     status: body.status,
@@ -64,6 +64,14 @@ export class TripService {
                     delay_minutes: body.delay_minutes
                 }
             })
+
+            await this.prisma.userTrip.create({
+                data: {
+                    userId: loggedUserId,
+                    tripId: createTrip.id
+                }
+            })
+
             return {
                 statusCode: HttpStatus.CREATED,
                 message: "Passageiro Criado"
